@@ -1,0 +1,21 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": ";}",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.mjs",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "author": "yours truly",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "graphviz": "^0.0.9",
+    "jsdom": "^24.0.0",
+    "vis-network": "^9.1.9"
+  }
+}
